@@ -1,0 +1,172 @@
+*{
+margin : 0;
+padding : 0;
+}
+.fill{
+    
+    background: linear-gradient(to right, rgb(59, 4, 85) , rgb(42, 52, 63));
+}
+.colG{
+    color : rgb(199, 255, 115);
+}
+/*
+#transit{
+    display : block ;
+    width : 20%;
+    margin : auto ;
+    transition : 0.6s;
+}
+#transit:hover{
+    cursor: default;
+    border : 1px solid grey;
+    padding : 5px 5px ;
+
+    background-color: rgb(197, 205, 214);
+}*/
+.icon-box{
+    width : 100%;
+    height : 30px;
+    display : flex ;
+    justify-content: center;
+}
+.icon{
+   color :rgb(199, 255, 115);
+    padding : 2px 2px ;
+    margin : 10px 10px ;
+    align-content: center;
+}
+
+
+
+.navbar{
+    background-color:rgb(59, 4, 85);
+    
+    
+    border-radius: 40px;
+    
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a{
+    
+    text-decoration: none;
+    color : whitesmoke;
+    font-size: 20px;
+    font-family: "lato"; 
+    
+ transition: 0.3s;
+
+}
+
+.navbar li a:hover{
+
+    color : rgb(26, 224, 26) ;
+   
+}
+
+.navbar li{
+    margin : 0px 20px ;
+    float : left ;
+    list-style: none ;   
+}
+.intro{
+    font-family: "lato";
+    font-size: x-large;
+    color : white;
+   display : block;
+    padding-top : 200px;
+    width : 100%;
+    margin :auto;
+}
+.intro h1{
+    text-align: center;
+}
+@media only screen and (max-width: 500px) {
+    div.item {
+      display: block;
+    }
+  }
+.item{
+    text-align: center;
+    width : 32%;
+    margin : 0px;
+    padding:23px;
+    font-family: "lato";
+    font-size: large;
+    color : rgb(227 67 67);
+    display : inline-block ;
+    box-sizing: border-box;
+}
+.item li{
+    
+    list-style: none;
+    color : rgb(241, 231, 231);
+}
+.box{
+    
+    font-family: "lato";
+    color : rgb(227 67 67);
+    margin : auto;
+    width :auto;
+
+}
+.first{
+    text-align: center;
+    display : block;
+  /*  margin : 30px 0px 100px 100px ;*/
+    box-sizing: border-box;
+    padding : 10px 20px;
+
+}
+
+.colRed{
+    color : rgb(230, 68, 68);
+}
+
+.first h1{
+    color : rgb(227 67 67);
+    font-family: "lato";
+   
+}
+.first p{
+    color : white;
+    font-family: "lato";
+}
+.contain{
+    font-family: "lato";
+    color : rgb(227 67 67);
+}
+.contain h1{
+    text-align: center;
+}
+.contain p{
+    text-align: center;
+    color : white ;
+}
+
+.conclude{
+    background-color: rgb(9, 11, 14);
+    width : 100%;
+    height : 100px;
+    position : fixed ;
+    bottom : 0px;
+    
+}
+.conclude ul{
+    color : white;
+}
+
+.conclude li{
+    margin : auto ;
+    list-style: none;
+    
+    display : inline-block;
+}
+.conc{
+    margin-top: 30px;
+    position: static;
+    bottom: 0;
+    color :rgb(199, 255, 115);
+    font-family: "lato";
+}
