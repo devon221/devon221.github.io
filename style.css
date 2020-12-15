@@ -6,6 +6,9 @@ padding : 0;
     
     background-color:  rgb(42, 52, 63);
 }
+.first p{
+    margin : 30px;
+}
 .colG{
     color : rgb(199, 255, 115);
 }
